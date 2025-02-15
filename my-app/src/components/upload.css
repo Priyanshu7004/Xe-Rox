@@ -1,0 +1,67 @@
+.uploadMainDiv {
+    position: absolute;
+    z-index: 1000;
+    height: 20vw;
+    width: 30vw;
+    background-color: rgba(243, 0, 0);
+    overflow-y: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 0.1vw solid rgba(0, 0, 0, 0.2);
+    z-index: 100000;
+}
+
+.mainDivHeading{text-align: center; margin-top:30px; color: white;}
+
+.form-container {
+    position: absolute;
+    height: 84%;
+    width: 50%;
+    overflow-y: auto;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
+}
+
+.form-container::-webkit-scrollbar{display: none;}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    position: absolute;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+button:hover {
+    background-color: #45a049;
+}
